@@ -1,0 +1,32 @@
+{
+  "description": "Demonstrating webRequests",
+  "manifest_version": 2,
+  "name": "webRequest-demo",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "<all_urls>"
+  ],
+
+  "browser_action":{
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "Beastify",
+    "default_popup": "popup/choose_beast.html"
+  },
+
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
