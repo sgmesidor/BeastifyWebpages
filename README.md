@@ -6,7 +6,7 @@ Getting it to work:
 
     2. In Firefox, go to about:debugging url to try temporary browser extensions.
 
-    3. Click "Load Temporary Add-on..." button and select the "background.js" file. Press open. Now the extension will be running temporarily in your browser.
+    3. Click "Load Temporary Add-on..." button and select the "choose_beast.js" file. Press open. Now the extension will be running temporarily in your browser.
 
     4. Navigate to any webpage of your choice.
 
